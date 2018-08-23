@@ -126,6 +126,36 @@ h6.logo{
   text-align:center;
 }
 
+h6.footer{
+  font-size: 18px;
+  color: black;
+  text-align:left;
+}
+
+h3.lema{
+  font-size: 18px;
+  color: #fff;
+  font-style: italic;
+}
+
+h1.branco{
+  color: #fff;
+}
+
+h5.branco_justificado{
+  color: #fff;
+  text-align: justify;
+  line-height: 30px;
+  font-family: cursive;
+}
+
+h6.pecuaria{
+  font-size: 20px;
+  color:#fff;
+  text-align: justify;
+  padding: 30px;
+}
+
 a {
   transition: all 0.3s ease 0s;
   text-decoration: none;
@@ -235,7 +265,9 @@ div#preloader {
   font-weight: 600;
   margin-bottom: 70px;
   position: relative;
-  text-transform: capitalize;
+  /* Deixa o texto sempre com maiúscula no início
+      text-transform: capitalize;
+  */
 }
 
 .section-headline h2::after {
@@ -437,6 +469,7 @@ div#preloader {
   background-color: #f5f5f5;
   color: #fff;
   outline: medium none;
+  display: none;
 }
 
 .stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover, .mainmenu ul#nav li .mega-menu span>a:hover, .stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
@@ -551,7 +584,7 @@ div#preloader {
 }
 
 .our-skill-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top / cover;
+  background: rgba(248, 248, 248, 0.8) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
 }
 
 .test-overly {
@@ -725,7 +758,31 @@ div#preloader {
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg");
+  background: rgba(248, 248, 248, 0.8) url("../img/background/slider1.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wellcome-area-pecuaria{
+  background: rgba(248, 248, 248, 0.8) url("../img/background/slider1.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wellcome-area-transportes{
+  background: rgba(248, 248, 248, 0.8) url("../img/background/1-min.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wellcome-area-lazer{
+  background: rgba(248, 248, 248, 0.8) url("../img/background/4-min.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1041,9 +1098,13 @@ div#preloader {
 .work-right-text h5 {
   color: #fff;
   font-size: 18px;
-  font-weight: 700;
+  /*font-weight: 700;
+  */
   line-height: 34px;
-  text-transform: uppercase;
+  text-align: justify;
+  padding: 10%;
+  /*text-transform: uppercase;
+  */
 }
 
 .work-right-text .sus-btn {
@@ -1578,7 +1639,7 @@ div#preloader {
 --------------------------------*/
 
 .suscribe-area {
-  background: #f2000d none repeat scroll 0 0;
+  background: #b50101 none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1592,8 +1653,9 @@ div#preloader {
   display: inline-block;
   font-size: 20px;
   font-weight: 600;
+  font-family: 'Open Sans', cursive;
   margin: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2px;
 }
 
@@ -1740,6 +1802,10 @@ div#preloader {
 .footer-area {
   padding: 40px 0;
   background: #f9f9f9;
+}
+
+div.logo-footer{
+  background: black;
 }
 
 .footer-head p {
@@ -2052,6 +2118,8 @@ div#preloader {
 .header-bottom h1, .header-bottom h2 {
   color: #fff;
 }
+
+
 
 .blog-tags {
   padding: 1px 0;

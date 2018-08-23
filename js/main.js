@@ -129,6 +129,7 @@
     nav: false,
     dots: true,
     autoplay: true,
+    autoplayTimeout: 23000,
     responsive: {
       0: {
         items: 1
