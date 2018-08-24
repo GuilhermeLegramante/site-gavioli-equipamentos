@@ -125,10 +125,10 @@
 }
 /* ------- Video & iFrames window ------ */
 .venoframe{
-    max-width: 100%;
-    width: 100%;
+    max-width: 50%;
+    width: 50%;
     border: none;
-    width: 100%;
+    width: 50%;
     height: 260px;
     height: 70vh;
 }

@@ -469,7 +469,6 @@ div#preloader {
   background-color: #f5f5f5;
   color: #fff;
   outline: medium none;
-  display: none;
 }
 
 .stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover, .mainmenu ul#nav li .mega-menu span>a:hover, .stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
